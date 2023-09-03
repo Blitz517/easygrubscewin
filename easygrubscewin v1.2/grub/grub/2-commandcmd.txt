@@ -1,0 +1,4 @@
+cd 2-grub-2.06-for-windows location
+grub-install.exe --boot-directory=E:\ --efi-directory=E: --removable --target=x86_64-efi
+
+Change the letter E to the letter of your usb stick, make sure they are the same.

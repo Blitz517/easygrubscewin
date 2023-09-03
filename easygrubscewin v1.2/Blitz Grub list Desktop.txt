@@ -1,0 +1,250 @@
+################################################### power saving ###
+     C6DRAM |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+DISABLED
+     Intel(R) SpeedStep(tm) |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Energy Performance Gain |
+          Disabled: 0x0 (default)
+          Enabled: 0x1
+Disabled
+     Energy Efficient P-state |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Energy Efficient Turbo |
+          Disabled: 0x0
+          Enabled: 0x1
+          Auto: 0x2 (default)
+Disabled
+     Disable DSX ACPRESENT PullDown |
+          Enabled: 0x1
+          Disabled: 0x0
+Enabled
+     PCH Cross Throttling |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     PCH Energy Reporting |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     PCI Express Clock Gating |
+          Disabled: 0x1
+          Enabled: 0x0 (default)
+Disabled
+     Disable Gen2 Pll Shutdown and L1 Controller Power gating |
+          Disabled: 0x0 (default)
+          Enabled: 0x1
+Enabled
+     PowerDown Energy Ch1Dimm1 |
+          Min: 0x0, Max: 0x3F, Step: 0x1
+0x0
+     PowerDown Energy Ch1Dimm0 |
+          Min: 0x0, Max: 0x3F, Step: 0x1
+0x0
+     PowerDown Energy Ch0Dimm1 |
+          Min: 0x0, Max: 0x3F, Step: 0x1
+0x0
+     PowerDown Energy Ch0Dimm0 |
+          Min: 0x0, Max: 0x3F, Step: 0x1
+0x0
+     LTR |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled(There are tons of them, so find these all offsets and disable in grub)
+     ACPI Standby State |
+          Suspend Disabled: 0x0
+          S3: 0x2 (default)?
+Disabled
+################################################### security stuff ###
+     BME DMA Mitigation |
+          Disabled: 0x0 
+          Enabled: 0x1 (default)
+Disabled
+     SW Guard Extensions (SGX) |
+          Disabled: 0x0
+          Enabled: 0x1
+          Software Controlled: 0x2 (default)
+DISABLED
+     PAVP Enable |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+DISABLED
+     Intel Platform Trust Technology |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+DISABLED
+     Secure Boot |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+DISABLED
+     Enable RH Prevention |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+disabled
+     TPM State |
+          Disabled: 0x0
+          Enabled: 0x1
+disabled
+     Execute Disable Bit |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Intel(R) Anti-Theft Technology |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     ASF Support |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     WatchDog |
+          Disabled: 0x0 
+          Enabled: 0x1 (default)
+Disabled
+     AES |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+DISABLED
+     Intel AES-NI |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Security Device Support |
+          Disabled: 0x0
+          Enabled: 0x1 (default)?
+Disabled(There are tons of them, so find these all offsets and disable in grub)
+     Intel Trusted Execution Technology |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     ME State |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Software Guard Extensions |
+          Disabled: 0x0
+          Enabled: 0x1
+          Software Controlled: 0x2 (default)
+Disabled
+################################################### other ###
+     LAN Wake From DeepSx |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Intel (VMX) Virtualization Technology |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+DISABLED
+     AP threads Idle Manner |
+          HALT Loop: 0x1
+          MWAIT Loop: 0x2 (default)
+          RUN Loop: 0x3
+RUN LOOP 
+     Boot performance mode |
+          Max Battery: 0x0
+          Max Non-Turbo Performance: 0x1 (default)
+          Turbo Performance: 0x2
+Turbo Performance
+     VT-d |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+DISABLED
+     Fast Boot |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+DISABLED
+     Interrupt Redirection Mode Selection |
+          Fixed Priority: 0x0
+          Round robin: 0x1
+          Hash Vector: 0x2
+          PAIR with Fixed Priority: 0x4 (default)
+          PAIR with Round Robin: 0x5
+          PAIR with Hash Vector: 0x6
+          No Change: 0x7
+ROUND ROBIN
+Wake on LAN Enable |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+disabled
+Intel Rapid Recovery Technology |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+disabled
+WDT Enable |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     CrashLog Feature |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     SMART Self Test |
+disabled
+     Ipv4 PXE Support |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Ipv6 PXE Support |
+          Disabled: 0x0
+          Enabled: 0x1 (default)
+Disabled
+     Launch PXE OpROM policy |
+          Disabled: 0x0
+          Enabled: 0x2
+Disabled
+     NetWork Stack Driver Support |
+          Disabled: 0x0
+          Enabled: 0x1 (default MFG)
+Disabled
+     PCI-X Latency Timer |
+32 PCI Bus Clocks
+     PS2 Keyboard and Mouse | VarStore: Setup, VarOffset: 0x399, Size: 0x1
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disable this if you do not use a PS2 peripheral.
+     User Access Level |
+          View Only: 0x2
+          Limited: 0x3 (default)
+          Full: 0x4
+0x4
+     Quiet Boot |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Windows® 8 Fast Boot |
+          Enabled: 0x0 (default)
+          Disabled: 0x1
+Disabled
+     HotKey Mode |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Serial(COM) Port0 |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Limit CPUID Maximum |
+          Enabled: 0x1
+          Disabled: 0x0 (default)
+Disabled
+     Enable Hibernation |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Quick Boot |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     Wake On Lid Open |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
+     VT-d |
+          Enabled: 0x1 (default)
+          Disabled: 0x0
+Disabled
